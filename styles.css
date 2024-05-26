@@ -1,0 +1,101 @@
+*,*::before,*::after{
+    box-sizing: border-box;
+}
+body{
+    padding: 0;
+    margin: 0;
+    font-family: 'Overpass',system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+section{
+    height: 100vh;
+    background-color: hsl(216, 12%, 8%);
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+div.main{
+    background-color: hsl(213, 19%, 18%);
+    max-width: 350px;
+    padding: 2em 1em;
+    border-radius: 1.5em;
+}
+.thank{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+    padding: 2em 1em;
+}
+p.orange.scorestate{color:hsl(25, 97%, 53%);}
+p.scorestate{
+    background-color:hsl(217, 8%, 30%);
+    padding: .4em 1em;
+    border-radius: 1em;
+    margin-bottom: -.5em;
+}
+.thank.main img{
+    border:none;
+    border-radius: 0;
+    padding:0;
+    background-color: transparent;}
+.thank.main h1{
+    margin-bottom: -.5em;
+}
+p.appreciate{
+    text-align: center; 
+    padding: 0 1em; 
+    font-weight: 400;}
+div.main h1{color: white;
+}
+div.main p{
+    color:hsl(217, 12%, 63%);
+}
+.main img{
+    background-color: hsl(217, 8%, 30%);
+    padding: .5em;
+    border-radius: 50%;
+}
+div.rating{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 1em auto;
+    padding-bottom: 1em;
+}
+div.rating span{
+    padding: 1.5em;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    border-radius:50%;
+    font-weight: bold;
+    display: flex;
+    font-size: 1.2em;
+    align-items: center;
+    justify-content: center;
+    height: 1em; width: 1em;
+    border: none;
+    background-color: hsl(217, 8%, 30%);
+    color: hsl(217, 12%, 63%);
+    cursor: grab;
+}
+.active.score{
+    background-color: hsl(25, 97%, 53%);
+}
+.previous.score{
+    background-color: white;
+}
+input[type="submit"]{
+    width: 100%;
+    font-size: 1.2em;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    border: none;
+    padding: .6em;
+    font-weight: 500;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 2em;
+    background-color:hsl(25, 97%, 53%);
+    color: white;
+}
